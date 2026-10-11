@@ -1,0 +1,237 @@
+/* dasar halaman */
+body {
+    font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #3A3128;
+    background-color: #FAF6EF;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+nav,
+main,
+footer {
+    max-width: 880px;
+    margin: 0 auto;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+/* judul */
+h1,
+h2,
+h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #3A3128;
+    line-height: 1.25;
+    margin: 0 0 12px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+    border-bottom: 1px solid #D9CBB6;
+    padding-bottom: 6px;
+}
+
+h3 {
+    font-size: 1.1em;
+    color: #8A4B1F;
+    margin-top: 24px;
+}
+
+/* tautan umum */
+a {
+    color: #8A4B1F;
+}
+
+a:hover {
+    color: #B06A2C;
+}
+
+/* bagian profil */
+#profil {
+    padding-top: 40px;
+    padding-bottom: 24px;
+    border-bottom: 3px solid #B06A2C;
+    overflow: hidden;
+}
+
+.foto {
+    float: left;
+    width: 150px;
+    height: auto;
+    margin: 4px 24px 8px 0;
+    padding: 5px;
+    border: 1px solid #D9CBB6;
+    background-color: #FFFFFF;
+}
+
+.jabatan {
+    font-size: 0.95em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #8A4B1F;
+    margin: 0 0 10px;
+}
+
+.bio {
+    margin: 0;
+}
+
+/* navigasi */
+nav {
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 18px;
+}
+
+nav a {
+    font-size: 0.85em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #6B5B45;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #B06A2C;
+    text-decoration: underline;
+}
+
+/* bagian isi */
+section {
+    padding: 24px 0;
+    border-bottom: 1px solid #EDE4D5;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+.daftar {
+    margin: 0 0 20px;
+    padding-left: 20px;
+}
+
+.daftar li {
+    margin-bottom: 6px;
+}
+
+/* daftar keahlian */
+.daftar-skill {
+    list-style: none;
+    margin: 0 0 24px;
+    padding: 0;
+}
+
+.skill-tag {
+    display: inline-block;
+    font-size: 0.9em;
+    color: #5A4A34;
+    background-color: #F1E7D6;
+    border: 1px solid #D9CBB6;
+    padding: 5px 12px;
+    margin: 0 8px 8px 0;
+}
+
+/* daftar kontak */
+.info-kontak {
+    list-style: none;
+    margin: 0 0 24px;
+    padding: 0;
+}
+
+.info-kontak li {
+    margin-bottom: 6px;
+}
+
+/* formulir kontak */
+form {
+    max-width: 520px;
+    padding: 20px;
+    border: 1px solid #D9CBB6;
+    background-color: #FFFDF9;
+}
+
+label {
+    display: block;
+    font-size: 0.85em;
+    font-weight: bold;
+    color: #6B5B45;
+    margin-bottom: 4px;
+}
+
+input,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 1em;
+    color: #3A3128;
+    padding: 8px 10px;
+    margin-bottom: 14px;
+    border: 1px solid #D9CBB6;
+    background-color: #FFFFFF;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #B06A2C;
+}
+
+.tombol {
+    font-family: inherit;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    background-color: #B06A2C;
+    border: 1px solid #B06A2C;
+    padding: 10px 24px;
+    cursor: pointer;
+}
+
+.tombol:hover {
+    background-color: #8A4B1F;
+    border-color: #8A4B1F;
+}
+
+/* kaki halaman */
+footer {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-top: 8px;
+    border-top: 3px solid #B06A2C;
+    text-align: center;
+    font-size: 0.85em;
+    color: #8C7A62;
+}
+
+/* layar kecil */
+@media (max-width: 560px) {
+    .foto {
+        float: none;
+        display: block;
+        margin: 0 auto 16px;
+    }
+
+    #profil {
+        text-align: center;
+    }
+}
